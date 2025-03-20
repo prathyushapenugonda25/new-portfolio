@@ -1,0 +1,186 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #d14d4d;
+}
+
+/* Sections */
+section {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    color: #d14d4d;
+    margin-bottom: 20px;
+}
+
+/* Services */
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.service {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.service h3 {
+    color: #d14d4d;
+}
+
+/* Skills */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills-container span {
+    background: #1a1a1a;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+/* Education & Experience */
+.education-container, .experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education, .job {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    width: 300px;
+}
+.hero-image img {
+    width: 300px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    object-fit: cover;
+    max-width: 100%; /* Ensures it stays responsive */
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row; /* Ensures image is on the left */
+    padding: 100px 50px;
+}
+
+.hero-image {
+    flex: 1; /* Takes up equal space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 500px; /* Adjust size */
+    height: 500px; /* Makes it a perfect circle */
+    border-radius: 70%; /* Ensures it's round */
+    object-fit: cover;
+    border: 10px solid #d14d4d; /* Optional border */
+}
+
+.hero-content {
+    flex: 1; /* Takes up equal space */
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #d14d4d;
+}
+
+.hire-btn {
+    background: none;
+    border: 2px solid #d14d4d;
+    padding: 10px 25px;
+    font-size: 18px;
+    color: #d14d4d;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+.hire-btn:hover {
+    background-color: #d14d4d;
+    color: #000;
+}
+
+/* Contact */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+form input, form textarea {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background: #d14d4d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: white;
+    color: black;
+}
