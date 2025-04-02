@@ -1,10 +1,117 @@
-<!DOCTYPE html>
-<html>
+
+ <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Test Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prathyusha - Portfolio</title>
+    <link rel="stylesheet" href="newstyles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Hello, This is my Portfolio!</h1>
+
+    <header>
+        <nav>
+            <h2 class="logo">Prathyusha</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, It's <span class="highlight">Prathyusha</span></h1>
+            <h2>I'm a <span class="highlight">Full Stack Java Developer</span></h2>
+           
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <button class="hire-btn">Hire Me</button>
+        </div>
+        <div class="hero-image">
+            <img src="prathyusha.jpg" alt="Prathyusha">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <h3>Full Stack Java Development</h3>
+                <p>Building Java Based Projects</p>
+            </div>
+            <!-- <div class="service">
+                <h3>UI/UX Design</h3>
+                <p>Designing user-friendly and aesthetic interfaces.</p>
+            </div>
+            <div class="service">
+                <h3>SEO Optimization</h3>
+                <p>Improving search engine rankings.</p>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <span>Java</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Python</span>
+            <span>JavaScript</span>
+            <span>C</span>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-container">
+            <div class="education">
+                <h3>Betech 3<up>rd</up> year in Computer Science</h3>
+                <p>JNTUHCES Sulthanpur</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience-container">
+            <div class="job">
+                <h3>Fresher</h3>
+               
+            <!-- </div>
+            <div class="job">
+                <h3>Intern - Tech Startup</h3>
+                <p>Worked on front-end development and UI design.</p>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
 </body>
 </html>
-
